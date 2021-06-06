@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Ezequiel Zella</title> 
+</head>
+
+<body>
+     <h1>Crear Personas<br></h1> <!--titulo del la "pagina" en negrita-->
+        <form action = 'http://localhost:3000' method = 'POST'> <!--determino la accion y el destino de la misma-->
+            <label for="nombre">Nombre: </label><br><!-- nombre de lo que voy a ingresar -->
+            <input type="text" name="nombre"><br><br><!--Creo la casilla donde ingreare el dato-->
+
+            <label for="apellido*">Apellido: </label><br><!-- nombre de lo que voy a ingresar -->
+            <input required type="text" name="apellido"><br><br><!--Creo la casilla donde ingreare el dato-->
+            <!--Se valida que se completa y que el maximo de largo sea 10. Se valida aca y por seguridad tambien en el Servidor.js-->
+
+            <label for="dni*">DNI: </label><br><!-- nombre de lo que voy a ingresar -->
+            <input required maxlength=10 type="text" name="dni"><br><br><!--Creo la casilla donde ingreare el dato-->
+            <!--Se valida que se completa y que el maximo de largo sea 10. Se valida aca y por seguridad tambien en el Servidor.js-->
+
+            <input type="submit" value="Enviar"></submit><!-- Creo el boton "Enviar" con el que se ejecutara la accion y posteo en el servidor -->
+        </form>
+ </body>
+ </html>

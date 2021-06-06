@@ -1,0 +1,15 @@
+{
+  "name": "punto-5",
+  "version": "1.0.0",
+  "description": "Servidor",
+  "main": "Servidor.js",
+  "scripts": {
+    "test": "error\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\"error\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
